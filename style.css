@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
 /* body {
     font-family: 'Yanone Kaffeesatz', sans-serif;
     background-color: white;
@@ -23,3 +24,44 @@ aside {
 footer {
     text-align: center;
 } */
+
+/* Reset css */
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.main-container {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+/* Navbar section */
+
+.nav-item {
+    padding: 0 2rem;
+}
+
+/* Hero section */
+
+.hero-section {
+    background-image: url("./images//Living\ room.jpg");
+    height: 95vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main-title {
+    font-family: 'Alfa Slab One', cursive;
+    position: absolute;
+    top: 30%;
+    left: 8%;
+    width: 25rem;
+    font-size: 5rem;
+    background-image: -webkit-linear-gradient( top right, red, darkblue);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

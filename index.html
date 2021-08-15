@@ -8,25 +8,60 @@
     <title>TrueFinisherColor</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Goole Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap" rel="stylesheet">
+    <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="style.css" media="screen">
-    <link rel="stylesheet" href="script.js">
 </head>
 
 <body>
-    <div class="container-fluid">
-        <div class="h1">
-            <header>True Finisher Color & Painting</header>
+    <div class="container-fluid main-container">
+        <!-- Start of navbar section -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">True Finisher Color & Painting</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Features</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Pricing</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- End navbar section -->
+
+        <!-- Start of hero image and title -->
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container-fluid hero-section">
+                <h1 class="display-4 main-title">True Finisher Color & Painting</h1>
+            </div>
         </div>
-        <img src="Living room.jpg" alt="A nice white couch">
-        <nav>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eius esse cillum dolore eu fugiat nulla</nav>
+        <!-- End of hero and title -->
+
         <section>Lorem ipsum dolor sit amet, consectetur adipiscing</section>
-    
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eius esse cillum dolore eu fugiat nulla pariatur.
-            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-            mo quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eius esse cillum dolore eu fugiat nulla
+            pariatur.
+            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+            laborum.
+            mo quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+            in
         </p>
         <div class="border">
             <aside>Lorem ipsum dolor sit amet, consectetur adipiscing</aside>
@@ -43,6 +78,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js"
         integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/"
         crossorigin="anonymous"></script>
+    <script src="script.js"></script>
 </body>
 </div>
 
