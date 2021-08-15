@@ -1,35 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
-/* body {
-    font-family: 'Yanone Kaffeesatz', sans-serif;
-    background-color: white;
-    font-size: 23px;
-}
-
-p {
-    font-size: 15;
-    margin: 32;
-}
-
-aside {
-    text-align: left;
-    border: 2px solid;
-    background: lightblue;
-    border-radius: 9px
-}
-
-.border {
-    width: 125px;
-}
-
-footer {
-    text-align: center;
-} */
 
 /* Reset css */
 
 * {
     padding: 0;
     margin: 0;
+}
+
+body {
+    position: absolute;
 }
 
 .main-container {
@@ -47,7 +26,7 @@ footer {
 
 .hero-section {
     background-image: url("./images//Living\ room.jpg");
-    height: 95vh;
+    height: 105vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -64,4 +43,14 @@ footer {
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+.jumbotron {
+    position: relative;
+    top: -65px;
+}
+
+.navbar-brand,
+.nav-link {
+    color: #fff !important;
 }
