@@ -60,7 +60,7 @@ footer {
     left: 8%;
     width: 25rem;
     font-size: 5rem;
-    background-image: -webkit-linear-gradient( top right, red, darkblue);
+    background-image: -webkit-linear-gradient( top right, green, darkblue);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
