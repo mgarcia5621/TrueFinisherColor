@@ -1,3 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+
+/* Reset css */
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    position: absolute;
+    width: 100%;
+}
+
+.main-container {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+/* Navbar section */
+
 .nav-item {
     padding: 0 2rem;
 }
@@ -5,7 +26,7 @@
 /* Hero section */
 
 .hero-section {
-    background-image: url("./images//Living\ room.jpg");
+    background-image: url("../images//Living\ room.jpg");
     height: 105vh;
     background-position: center;
     background-repeat: no-repeat;

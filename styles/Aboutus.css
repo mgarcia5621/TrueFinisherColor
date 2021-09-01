@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+
+/* Reset css */
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    position: absolute;
+    width: 100%;
+}
+
+.main-container {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+/* Navbar section */
+
+.nav-item {
+    padding: 0 2rem;
+}
+
+/* Hero section */
+
+.hero-section {
+    background-image: url("../images/valley.jpg");
+    height: 105vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main-title {
+    font-family: 'Alfa Slab One', cursive;
+    position: absolute;
+    top: 30%;
+    left: 8%;
+    width: 25rem;
+    font-size: 5rem;
+    background-image: -webkit-linear-gradient( top right, green, darkblue);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.jumbotron {
+    position: relative;
+    top: -65px;
+}
+
+.navbar-brand,
+.nav-link {
+    color: #fff !important;
+}
