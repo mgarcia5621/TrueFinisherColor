@@ -40,7 +40,7 @@ body {
     left: 8%;
     width: 25rem;
     font-size: 5rem;
-    background-image: -webkit-linear-gradient( top right, green, darkblue);
+    background-image: -webkit-linear-gradient( top right,orange, lightgreen);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -54,4 +54,18 @@ body {
 .navbar-brand,
 .nav-link {
     color: #fff !important;
+}
+
+.quote-text {
+    font-family: 'Alfa Slab One', cursive;
+    position: absolute;
+    top: 20%;
+    left: 58%;
+    width: 25rem;
+    font-size: 5rem;
+    background-image: -webkit-linear-gradient( top right,green,lightgreen);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+      
 }

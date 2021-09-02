@@ -36,11 +36,11 @@ body {
 .main-title {
     font-family: 'Alfa Slab One', cursive;
     position: absolute;
-    top: 30%;
+    top: 25%;
     left: 8%;
     width: 25rem;
     font-size: 5rem;
-    background-image: -webkit-linear-gradient( top right, green, darkblue);
+    background-image: -webkit-linear-gradient( top right, red, darkblue);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -54,4 +54,18 @@ body {
 .navbar-brand,
 .nav-link {
     color: #fff !important;
+}
+
+.quote-text {
+    font-family: 'Alfa Slab One', cursive;
+    position: absolute;
+    top: 20%;
+    left: 58%;
+    width: 25rem;
+    font-size: 5rem;
+    background-image: -webkit-linear-gradient( top right,white, lightblue);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+      
 }
