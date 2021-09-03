@@ -69,3 +69,7 @@ body {
     -webkit-text-fill-color: transparent;
       
 }
+
+footer {
+    background-color: lightgray;
+}
