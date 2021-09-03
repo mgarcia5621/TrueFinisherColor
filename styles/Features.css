@@ -59,7 +59,7 @@ body {
 .quote-text {
     font-family: 'Alfa Slab One', cursive;
     position: absolute;
-    top: 28%;
+    top: 25%;
     left: 55%;
     width: 28rem;
     font-size: 3rem;
@@ -68,3 +68,17 @@ body {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
+.features-text {
+    font-family: 'Alfa Slab One', cursive;
+    position: absolute;
+    top: 43%;
+    left: 40%;
+    width: 48rem;
+    font-size: 2rem;
+    background-image: -webkit-linear-gradient( top right, white, lightgrey);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
