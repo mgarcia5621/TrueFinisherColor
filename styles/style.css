@@ -59,7 +59,7 @@ body {
 .quote-text {
     font-family: 'Alfa Slab One', cursive;
     position: absolute;
-    top: 19%;
+    top: 10%;
     left: 58%;
     width: 25rem;
     font-size: 5rem;
@@ -68,8 +68,4 @@ body {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
       
-}
-
-footer {
-    background-color: lightgray;
 }
