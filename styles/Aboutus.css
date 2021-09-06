@@ -87,3 +87,13 @@ body {
 footer {
     background-color: lightgray;
 }
+
+.smallpictures {
+    background-image: url("../images/painter.jpg");
+    height: 15vh;
+    background-size: cover;
+    width: 200px;
+    height: 135px;
+    float: right;   
+    
+}
