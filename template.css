@@ -2,9 +2,11 @@
 #hero{
     width: 100%;
     height: 100vh;
-    background-image: url(../images/stars.jpg);
+    background-image: url(../images/northernlightsmountain.jpg);
     background-size: cover ;
     background-position: relative;
+    margin: -3px;
+    margin-top:-5px
 }
 .container{
     width: 50%;
@@ -62,10 +64,36 @@ button{
     font-size: 12px;
 }
 
+.placeholder {
+    color: #fff;
+}
+
 .slider {
+    color: #fff;
     display: flex;
     align-items: center;
     position: absolute;
-    right: 30px;
+    left: 1620px;
     bottom: 50px;
+   
+}
+
+#prev {
+    width: 20px;
+    cursor: pointer;
+
+}
+
+#next {
+    width: 20px;
+    cursor: pointer;
+
+}
+.preview{
+    display: flex;
+    align-items: center;
+    width: 0 60px;
+    margin: 0 10px;
+    opacity: 0.4
+
 }
