@@ -33,12 +33,18 @@ button {
     font-weight: bold;
     cursor: pointer;
 }
+
+.explore-btn {
+    position: absolute;
+    margin-top: 1rem;
+}
+
 .info {
     width: 550px;
     color: #fff;
     position: absolute;
     right: 0%;
-    top: 50%;
+    top: 35%;
     transform: translateY(-30%);
     transform: translateX(-40%);
     font-size:30px;
@@ -85,16 +91,12 @@ button {
     margin-right: 10px;
 }
 
-#prev {
-    width: 20px;
-    cursor: pointer;
-}
-
+#prev,
 #next {
-    width: 20px;
+    width: 3rem;
     cursor: pointer;
-
 }
+
 .preview {
     display: flex;
     align-items: center;
