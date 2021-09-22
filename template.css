@@ -87,7 +87,7 @@ button {
 }
 
 .thumbnail {
-    width: 100px;
+    width: 3rem;
     margin-right: 10px;
 }
 
@@ -111,6 +111,6 @@ button {
 .active {
     display: block;
     border: 3px solid #fff;
-    width: 100px;
+    width: 10rem;
     opacity: 1;
 }
