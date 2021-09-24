@@ -1,0 +1,38 @@
+#hero{
+    background-image: url(../images/meatball.jpg);
+    font-family: 'Lato', sans-serif;
+    height: 900px;
+    background-size: cover;
+    background-position: relative;
+    color: #fff;
+
+}
+
+#hero h1 {
+    margin: -10px;
+    
+    
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+
+}
+
+nav ul li {
+    margin: 0 1rem;
+    font-weight: 700;
+}
+
+.content {
+    
+    text-align:center
+}
