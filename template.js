@@ -31,4 +31,3 @@ prev.onclick = function () {
         i--;
     }
 }
-
