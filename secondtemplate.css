@@ -1,10 +1,17 @@
+body{
+    margin: 0;
+}
+
+
 #hero{
     background-image: url(../images/meatball.jpg);
     font-family: 'Lato', sans-serif;
-    height: 900px;
+    height: 100vh;
     background-size: cover;
     background-position: relative;
     color: #fff;
+    margin: 0px;
+    padding: 0px;
 
 }
 
@@ -33,6 +40,22 @@ nav ul li {
 }
 
 .content {
+    margin: top 100px;
+    font-size: 4rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+.content button {
+    font-size: 2rem;
+    color: #fff;
+    background-color: cornflowerblue;
+    border: none;
+    padding: .5rem 2rem;
+    cursor: pointer;
+    transition: all .3s ease;
+}   
+
+.content button: hover{
+    color: #fff
     
-    text-align:center
 }
