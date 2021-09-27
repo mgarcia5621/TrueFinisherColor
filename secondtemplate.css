@@ -2,9 +2,12 @@ body{
     margin: 0;
 }
 
+h1{
+    padding: 20px;
+}
 
 #hero{
-    background-image: url(../images/meatball.jpg);
+    background-image:url(../images/meatball.jpg);
     font-family: 'Lato', sans-serif;
     height: 100vh;
     background-size: cover;
@@ -55,7 +58,11 @@ nav ul li {
     transition: all .3s ease;
 }   
 
-.content button: hover{
-    color: #fff
-    
+.content button:hover {
+    background-color:  #08347a;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
 }
