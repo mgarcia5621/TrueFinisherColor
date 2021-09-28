@@ -1,0 +1,21 @@
+header{
+    font-family: 'Yaldevi', sans-serif;
+    position: absolute;
+    top: 0;
+    left: 0px;
+    padding: 30px 200px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    background: linear-gradient(#2b1055, #7597de)
+}
