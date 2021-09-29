@@ -2,11 +2,12 @@ header{
     font-family: 'Yaldevi', sans-serif;
     position: absolute;
     top: 0;
-    left: 0px;
+    left: 1270px;
     padding: 30px 200px;
     justify-content: space-between;
     display: flex;
     align-items: center;
+    text-decoration: none;   
 }
 
 {
@@ -18,4 +19,48 @@ header{
 body{
     min-height: 100vh;
     background: linear-gradient(#2b1055, #7597de)
+}
+.logo {
+    font-family: 'Yaldevi', sans-serif;
+    align-items: center;
+    display: flex;
+    position: absolute;
+    top: 1px;
+    padding: 30px 200px;
+    left: -55px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+    font-size:1.8em;
+    letter-spacing:2px;
+    text-transform: uppercase;
+}
+
+header ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header ul li {
+    list-style: none;
+    margin-left: 20px;
+}
+
+header ul li a{
+    text-decoration: none;
+    padding: 6px 15px;
+    color: #fff;
+    border-radius: 20px;
+}
+
+header ul li a:hover ,
+header ul li a.active {
+    background-color: #fff;
+    color: #2b1055;
+    transition: all .5s ease;   
+}
+
+#stars {
+    
 }
